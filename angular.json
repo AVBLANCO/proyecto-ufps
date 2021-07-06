@@ -27,16 +27,39 @@
                         "tsConfig": "tsconfig.app.json",
                         "assets": [
                             "src/favicon.ico",
-                            "src/assets"
+                            "src/assets",
+                            "src/vendor",
+                            "src/css"
                         ],
                         "styles": [
                             "src/styles.css",
-                            "../vendors/font-awesome/css/font-awesome.min.css",
-                            "../vendors/nprogress/nprogress.css",
-                            "../vendors/bootstrap/dist/css/bootstrap.min.css",
-                            "../vendors/bootstrap-daterangepicker/daterangepicker.css"
+                            "src/vendors/bootstrap/dist/css/bootstrap.min.css",
+                            "src/vendors/font-awesome/css/font-awesome.min.css",
+                            "src/vendors/nprogress/nprogress.css",
+                            "src/vendors/bootstrap-daterangepicker/daterangepicker.css",
+                            "src/css/custom.min.css"
                         ],
-                        "scripts": []
+                        "scripts": [
+                            "src/vendors/jquery/dist/jquery.min.js",
+                            "src/vendors/bootstrap/dist/js/bootstrap.min.js",
+                            "src/vendors/fastclick/lib/fastclick.js",
+                            "src/vendors/nprogress/nprogress.js",
+                            "src/vendors/Chart.js/dist/Chart.min.js",
+                            "src/vendors/jquery-sparkline/dist/jquery.sparkline.min.js",
+                            "src/vendors/Flot/jquery.flot.js",
+                            "src/vendors/Flot/jquery.flot.pie.js",
+                            "src/vendors/Flot/jquery.flot.time.js",
+                            "src/vendors/Flot/jquery.flot.stack.js",
+                            "src/vendors/Flot/jquery.flot.resize.js",
+                            "src/vendors/flot.orderbars/js/jquery.flot.orderBars.js",
+                            "src/vendors/flot-spline/js/jquery.flot.spline.min.js",
+                            "src//vendors/flot.curvedlines/curvedLines.js",
+                            "src/vendors/DateJS/build/date.js",
+                            "src/vendors/moment/min/moment.min.js",
+                            "src/vendors/bootstrap-daterangepicker/daterangepicker.js",
+                            "build/js/custom.min.js"
+
+                        ]
                     },
                     "configurations": {
                         "production": {
@@ -95,15 +118,15 @@
                         "karmaConfig": "karma.conf.js",
                         "assets": [
                             "src/favicon.ico",
-                            "src/assets"
+                            "src/assets",
+                            "src/vendor",
+                            "src/css"
                         ],
                         "styles": [
-                            "src/styles.css",
-                            "../vendors/font-awesome/css/font-awesome.min.css",
-                            "../vendors/nprogress/nprogress.css",
-                            "../vendors/bootstrap/dist/css/bootstrap.min.css",
-                            "../vendors/bootstrap-daterangepicker/daterangepicker.css"
-
+                            "src/favicon.ico",
+                            "src/assets",
+                            "src/vendor",
+                            "src/css"
                         ],
                         "scripts": []
                     }
